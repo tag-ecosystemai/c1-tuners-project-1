@@ -11,6 +11,7 @@ This repository contains Team Tuner's work for Project 1 of the TAG AI Engineeri
 - Israel Adeoti
 - OYETUNJI SHUKRAH
 - John Confidence Bello
+- Adeniran Treasure
 
 ## Project Brief
 
