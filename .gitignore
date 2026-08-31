@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Dataset
+ai/data/raw/
+ai/data/raw/Dataset/
+
+# Model files
+*.pt
+*.onnx
+*.pth
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
