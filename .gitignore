@@ -4,12 +4,20 @@ __pycache__/
 
 # Dataset
 ai/data/raw/
-ai/data/raw/Dataset/
+ai/data/external_test/
+ai/data/detector/
+
+
 
 # Model files
 *.pt
 *.onnx
 *.pth
+
+ai/models/embeddings/
+
+!ai/models/weights/potato_resnet18_best.pth
+!ai/models/detector/potato_detector_best.pth
 
 # Jupyter
 .ipynb_checkpoints/
