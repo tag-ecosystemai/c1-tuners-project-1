@@ -660,3 +660,38 @@ a {
   color: #8a968f;
   font-size: 12px;
 }
+
+/* CONFIDENCE INFORMATION */
+
+.confidence-info,
+.recommendation-card {
+  padding: 16px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.confidence-info {
+  background: #f0f7f2;
+  border-left: 4px solid #2f8f5b;
+}
+
+.recommendation-card {
+  background: #fff8e8;
+  border-left: 4px solid #d99124;
+}
+
+.info-title,
+.recommendation-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.confidence-info p,
+.recommendation-card p {
+  margin: 0;
+  line-height: 1.6;
+  color: #526158;
+  font-size: 14px;
+}
