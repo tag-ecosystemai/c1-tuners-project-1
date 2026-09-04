@@ -46,7 +46,7 @@ device = torch.device(
 # LOAD DISEASE MODEL
 # ============================================================
 
-disease_model = create_model()
+disease_model = create_model(num_classes=3, pretrained=False)
 
 disease_model.load_state_dict(
     torch.load(
